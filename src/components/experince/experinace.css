@@ -1,0 +1,62 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.articles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 850px;
+  /* max-height:  50px; */
+  gap: 40px;
+}
+
+.fig-1 {
+  background-color: #1c2529;
+}
+
+article {
+  border-radius: 16px;
+  box-shadow: none;
+  background: #fff;
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+}
+
+article h2 {
+  margin: 0 0 18px 0;
+  /* font-family: "Bebas Neue", cursive; */
+  font-size: 1.9rem;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+  transition: color 0.3s ease-out;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+article img {
+  max-width: 100%;
+  transform-origin: center;
+  transform: scale(var(--img-scale));
+  transition: transform 0.05s ease-in-out;
+}
+
+.article-body {
+  padding: 24px;
+}
+
+article:has(:hover, :focus) {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}

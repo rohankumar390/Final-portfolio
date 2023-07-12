@@ -1,0 +1,310 @@
+#contact-main {
+  /*  margin-left: 20px;  */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 90vw;
+  margin-bottom: 40px;
+}
+.contHeading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+/* @media screen and (max-width:790px) {
+    .input{
+        width: 200px;
+    }
+} */
+
+@media screen and (max-width: 720px) {
+  /* body{
+        display: block;
+        text-align: center;
+    } */
+  .main {
+    max-width: 550px;
+  }
+  .form {
+    padding: 0px;
+  }
+  .input {
+    min-width: 236px;
+  }
+  .message {
+    width: 493px;
+  }
+  #Message {
+    width: 480px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .main {
+    min-width: 450px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main {
+    min-width: 350px;
+  }
+  .button {
+    text-align: center;
+    width: 300px;
+  }
+  .input:nth-child(1) {
+    margin-bottom: 10px;
+  }
+}
+.textArea {
+  padding-left: 30px;
+  padding-bottom: 5px;
+}
+
+.textArea h1 {
+  color: rgb(75, 75, 75);
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 2.5vw;
+  font-weight: normal;
+}
+
+.form {
+  display: block;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  border-radius: 5px;
+  /* border: 2px solid rgb(54, 54, 54); */
+}
+/* .inputDiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+} */
+.input {
+  background-color: rgb(241, 241, 241);
+  border: 1px solid rgb(241, 241, 241);
+  width: 100%;
+  max-width: 308px;
+  height: 38px;
+  padding-left: 5px;
+}
+.input:nth-child(1) {
+  margin-right: 8px;
+}
+
+.message {
+  background-color: rgb(241, 241, 241);
+  border: 1px solid rgb(241, 241, 241);
+  width: 100%;
+  max-width: 627px;
+  height: 38px;
+  margin: 13px 0px;
+  padding-left: 5px;
+}
+
+#Message {
+  background-color: rgb(241, 241, 241);
+  border: 1px solid rgb(241, 241, 241);
+  padding-left: 5px;
+  padding-top: 15px;
+  width: 100%;
+  max-width: 633px;
+}
+
+.button {
+  margin-left: 8px;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: rgb(54, 54, 54);
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 740px) {
+  .ip1 {
+    margin-bottom: 25px;
+    max-width: 800px;
+  }
+  .ip2 {
+    max-width: 800px;
+    margin-bottom: -20px;
+  }
+}
+
+/* Let's style the wrapper in such away that, 
+it should always be at the center of the browser */
+.wrapper {
+  margin-bottom: 15px;
+}
+
+/* Style the Un-order list by setting its list-style to none */
+.wrapper ul {
+  list-style: none;
+}
+
+/* Style the list items inside the UL list, by setting its width, height and line-height 
+    and float them to left and set its border and border-radius.
+   */
+.wrapper ul li {
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  margin: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  /* border: 5px solid #D8E2DC; */
+  float: left;
+  transition: all 0.2s ease;
+  /* transform: translateY(100px); */
+}
+
+/* Style the icons by setting its color and margin-top value to 20px 
+  to align it properly */
+.wrapper ul li .brandIcon {
+  color: #d8e2dc;
+  margin-top: 20px;
+  transition: all 0.2s ease;
+  transform: translateY(-13px);
+}
+
+/* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
+    to icons for glowing effect and use transition property for smooth transition effect. */
+/*facebook*/
+.wrapper ul li:hover.facebook {
+  border: 5px solid #3b5998;
+  box-shadow: 0 0 15px #3b5998;
+  transition: all 0.2s ease;
+}
+
+.wrapper ul li:hover .fa-facebook {
+  color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.2s ease;
+}
+
+/*twitter*/
+.wrapper ul li:hover.twitter {
+  border: 5px solid #00aced;
+  box-shadow: 0 0 15px #00aced;
+  transition: all 0.2s ease;
+}
+
+.wrapper ul li:hover .fa-twitter {
+  color: #00aced;
+  text-shadow: 0 0 15px #00aced;
+  transition: all 0.2s ease;
+}
+
+/* instagram */
+.wrapper ul li:hover.instagram {
+  border: 5px solid #bc2a8d;
+  box-shadow: 0 0 15px #bc2a8d;
+  transition: all 0.2s ease;
+}
+
+.wrapper ul li:hover .fa-instagram {
+  color: #bc2a8d;
+  text-shadow: 0 0 15px #bc2a8d;
+  transition: all 0.2s ease;
+}
+
+/* google */
+.wrapper ul li:hover.google {
+  border: 5px solid #dd4b39;
+  box-shadow: 0 0 15px #dd4b39;
+  transition: all 0.2s ease;
+}
+
+.wrapper ul li:hover .fa-google {
+  color: #dd4b39;
+  text-shadow: 0 0 15px #dd4b39;
+  transition: all 0.2s ease;
+}
+
+/* whatsapp */
+.wrapper ul li:hover.whatsapp {
+  border: 5px solid #4dc247;
+  box-shadow: 0 0 15px #4dc247;
+  transition: all 0.2s ease;
+}
+
+.wrapper ul li:hover .fa-whatsapp {
+  color: #4dc247;
+  text-shadow: 0 0 15px #4dc247;
+  transition: all 0.2s ease;
+}
+
+/* media queries */
+
+@media screen and (max-width: 640px) {
+  .wrapper {
+    width: 350px;
+  }
+  .wrapper ul li {
+    margin-top: 10px;
+  }
+  .wrapper ul li.google {
+    margin-left: 60px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .wrapper {
+    width: 150px;
+  }
+  .wrapper ul li {
+    margin: 15px;
+  }
+  .wrapper ul li.google {
+    margin-left: 15px;
+  }
+}
+
+/* youtube link */
+.youtube {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 160px;
+  text-align: center;
+  padding: 15px 10px;
+  background: #bb0000;
+  border-radius: 5px;
+}
+
+.youtube a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.contact-b4 {
+  background: #5e5df0;
+  border-radius: 999px;
+  box-shadow: #5e5df0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
