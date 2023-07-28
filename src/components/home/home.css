@@ -15,17 +15,17 @@
 .home-txt h1 {
   max-width: 35vw;
 }
-.home-txt p{
+.home-txt p {
   font-size: 40px;
 }
 
 .home-img {
-  /* width: vw; */
-  height: 83vh;
+  height: 100vh;
 }
 .home-img img {
-  width: 36vw;
-  height: 77vh;
+  margin: 90px;
+  width: 39vw;
+  height: 69vh;
 }
 .home-lines {
   color: rgb(0, 0, 0);

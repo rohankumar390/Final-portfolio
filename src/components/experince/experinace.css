@@ -20,6 +20,13 @@
 .fig-1 {
   background-color: #1c2529;
 }
+.fig-2 {
+  background-color: #1c2529;
+}
+.fig-2 img{
+  margin-top: 17px;
+  margin-left: 100PX;
+}
 
 article {
   border-radius: 16px;

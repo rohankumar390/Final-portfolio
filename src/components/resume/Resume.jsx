@@ -1,6 +1,6 @@
 import React from "react";
 import "./resume.css";
-import Akash from "./akash.pdf";
+import Rohan from "./Rohan.pdf";
 import { FaReact, FaNodeJs, FaCss3Alt } from "react-icons/fa";
 
 const Resume = () => {
@@ -11,12 +11,12 @@ const Resume = () => {
     <div id="Resume">
       <div className="resume-left">
         <div className="resume-left-text">
-          <h1 style={{color:"Black"}}>Resume/CV</h1>
+          <h1 style={{ color: "Black" }}>Resume/CV</h1>
           <p>
             "Unveiling Excellence on Paper: <br /> A Reflection of Skills and "
           </p>
           <button className="resume-button" onClick={cnf}>
-            <a href={Akash} download>
+            <a href={Rohan} download>
               Download
             </a>
           </button>
@@ -29,7 +29,7 @@ const Resume = () => {
       </div>
       <div className="resume-right">
         <embed
-          src={`${Akash}#toolbar=0&navpanes=0&scrollbar=0`}
+          src={`${Rohan}#toolbar=0&navpanes=0&scrollbar=0`}
           type="application/pdf"
           width="90%"
           height="600px"

@@ -46,7 +46,7 @@ const Navbar = () => {
                 <ul className="social-icons">
                   <li>
                     <a
-                      href="https://github.com/Akashdogra171"
+                      href="https://github.com/rohankuamr890"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -54,8 +54,7 @@ const Navbar = () => {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="https://www.linkedin.com/in/akashdogra171/"
+                    <a href="https://www.linkedin.com/in/rohankumar890/"
                       target="_blank"
                       rel="noreferrer"
                     >

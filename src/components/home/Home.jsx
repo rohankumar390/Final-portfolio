@@ -15,7 +15,7 @@ const Home = () => {
               </h3>
             </div>
             <div>
-              <a id="emailMe" href="mailto:akashdogra171@gmail.com">
+              <a id="emailMe" href="mailto:rohanyt74@gmail.com">
                 <button className="button-34">Connect with me</button>
               </a>
             </div>

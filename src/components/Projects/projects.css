@@ -30,7 +30,7 @@
     "Noto Sans", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 44px;
   opacity: 1;
   outline: 0 solid transparent;
   padding: 8px 18px;
@@ -47,7 +47,7 @@
  .card {
   position: relative;
   max-width: 450px;
-  height: 235px;
+  height: 299px;
   border-radius: 10px;
   transition: 0.3s;
   background: #fff;

@@ -1,9 +1,9 @@
 import React from "react";
 import "./projects.css";
 
-import p1 from "../images/p1.jpeg";
-import p2 from "../images/p2.jpeg";
-import p3 from "../images/p33.png";
+import p1 from "../images/p1.jpg";
+import p2 from "../images/p2.jpg";
+import p3 from "../images/p3.jpg";
 
 const Project = () => {
   return (
@@ -19,16 +19,13 @@ const Project = () => {
             <img src={p1} alt="" />
           </div>
           <div className="content">
-            <h3>Gym Application</h3>
+            <h3>Filter Gallery</h3>
             <p>
-              Developed a Front-End web application using with React Using Rapid
-              API. Integrated Rapid API to fetch gym related data, including
+              Developed a filter gallery using javscript in which there are different section in which the photos are arranged properly !
               <br />
-              <form action=""></form>
-              workout plans, exercise tutorials, and nutrition tips.
             </p>
             <button className="project-b4">
-              <a href="https://deluxe-mochi-4e76ab.netlify.app/" target="blank">
+              <a href="https://rohankumar390.github.io/Filter-Gallery/" target="blank">
                 See Here
               </a>
             </button>
@@ -40,11 +37,9 @@ const Project = () => {
             <img src={p2} alt="" />
           </div>
           <div className="content">
-            <h3>Social Media Clone</h3>
+            <h3>CodePen Clone</h3>
             <p>
-              Developed astatic social media clone using React, replicating the
-              core features and user interface of popular social media
-              platforms.
+              Developed a code editor as a clone of Codepen which enables the user to execute the code online .
             </p>
             <button className="project-b4">
               <a href="https://dograsocial.netlify.app/" target="blank">
@@ -59,14 +54,12 @@ const Project = () => {
             <img src={p3} alt="" />
           </div>
           <div className="content">
-            <h3>News Monkey</h3>
+            <h3>Temperature Converter</h3>
             <p>
-              Developed a dynamic and user-friendly News Monkey application
-              utilizing React, demonstrating proficiency in front-end web
-              development, component-based architecture, and responsive design
+              Developed a Temperature Converter which is used to convert the temperature dynamically with fahrenheit to celsius and vice-versa.
             </p>
             <button className="project-b4">
-              <a href="https://dograsocial.netlify.app/" target="blank">
+              <a href="https://rohankumar390.github.io/temperatureConvertor/" target="blank">
                 See Here
               </a>
             </button>

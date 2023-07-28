@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import "./contact.css";
 import emailjs from "@emailjs/browser";
 import {
-  FaFacebook,
   FaWhatsapp,
   FaTwitter,
   FaEnvelope,
@@ -12,14 +11,14 @@ import {
 const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
-    // e.preventDefault();
+    e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_096p225",
-        "template_mmr696h",
+        "service_5d6yvse",
+        "template_xt965vl",
         form.current,
-        "m-2zcP03M9JbtvoJT"
+        "HDPLYeYhjZMnieruk"
       )
       .then(
         (res) => {
@@ -47,22 +46,10 @@ const Contact = () => {
               />
             </a>
           </li> */}
-          <li class="twitter">
-            <a
-              href="https://twitter.com/akashdogra171"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaTwitter
-                className="brandIcon"
-                style={{ fontSize: "50", color: "black", cursor: "pointer" }}
-                onMouseOver={({ target }) => (target.style.color = "#00aced")}
-              />
-            </a>
-          </li>
+         
           <li class="instagram">
             <a
-              href="https://www.instagram.com/akashdogra171/"
+              href="https://www.instagram.com/rohankumar890/"
               target="_blank"
               rel="noreferrer"
             >
@@ -76,7 +63,7 @@ const Contact = () => {
           <li class="google">
             <a
               id="emailMe"
-              href="mailto:akashdogra171@gmail.com"
+              href="mailto:rohanyt74@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -88,7 +75,7 @@ const Contact = () => {
             </a>
           </li>
           <li class="whatsapp">
-            <a href="https://wa.me/6239559679" target="_blank" rel="noreferrer">
+            <a href="https://wa.me/6280533763" target="_blank" rel="noreferrer">
               <FaWhatsapp
                 className="brandIcon"
                 style={{ fontSize: "50", color: "black", cursor: "pointer" }}
